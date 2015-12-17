@@ -30,7 +30,10 @@ public class ConnectTheDots implements MouseRightClickListener, MouseLeftClickLi
     //       Write "Right click to clear" on the screen at position 100, 100 --#18
     //    ------------- End of clearTheScreen Recipe --#19.3
     //
+    //    prepareColorPalette (recipe below) --#17.1
+    //    ------------- Recipe for prepareColorPalette --#17.2
     prepareColorPalette();
+    //    ------------- End of prepareColorPalette Recipe --#17.3
   }
   private void prepareColorPalette()
   {

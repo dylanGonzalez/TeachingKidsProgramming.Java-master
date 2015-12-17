@@ -9,6 +9,7 @@ import org.teachingextensions.logo.utils.ColorUtils.PenColors.Purples;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors.Reds;
 import org.teachingextensions.logo.utils.EventUtils.MouseLeftClickListener;
 import org.teachingextensions.logo.utils.EventUtils.MouseRightClickListener;
+import org.teachingextensions.logo.utils.EventUtils.RightClickMouseAdapter;
 import org.teachingextensions.logo.utils.LineAndShapeUtils.Circle;
 
 public class ConnectTheDots implements MouseRightClickListener, MouseLeftClickListener

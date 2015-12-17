@@ -1,3 +1,6 @@
 1450204397104	Convert local variable 'programWindow' to field
 1450283819327	Extract method 'prepareColorPalette'
 1450283906840	Extract method 'createBubble'
+1450393198125	Extract method 'addACircle'
+1450393214871	Extract method 'addDot'
+1450393364216	Extract method 'prepareColorPalette'

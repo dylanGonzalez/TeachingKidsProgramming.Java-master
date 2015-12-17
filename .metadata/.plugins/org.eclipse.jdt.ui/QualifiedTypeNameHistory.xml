@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="org.teachingextensions.logo.Colors"/>
+<fullyQualifiedTypeName name="org.teachingextensions.windows.MessageBox"/>
+<fullyQualifiedTypeName name="org.teachingextensions.logo.ColorWheel"/>
+<fullyQualifiedTypeName name="org.teachingextensions.logo.Tortoise"/>
+<fullyQualifiedTypeName name="org.teachingextensions.logo.utils.MVCUtils.Viewer"/>
+<fullyQualifiedTypeName name="org.teachingextensions.logo.utils.EventUtils.MessageBox"/>
+<fullyQualifiedTypeName name="org.teachingextensions.logo.utils.MVCUtils.Parser"/>
+<fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.regexp.joni.SearchAlgorithm.SLOW_IC"/>
+<fullyQualifiedTypeName name="org.teachingextensions.logo.utils.LineAndShapeUtils.Text"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.teachingextensions.logo.Turtle"/>
+<fullyQualifiedTypeName name="org.teachingextensions.WindowUtils.ProgramWindow"/>
+<fullyQualifiedTypeName name="org.teachingextensions.approvals.lite.util.MySystem"/>
+<fullyQualifiedTypeName name="javafx.scene.shape.Circle"/>
+<fullyQualifiedTypeName name="org.teachingextensions.logo.utils.ColorUtils.ColorWheel"/>
+<fullyQualifiedTypeName name="org.teachingextensions.logo.utils.LineAndShapeUtils.Circle"/>
+<fullyQualifiedTypeName name="org.teachingkidsprogramming.section08events.SimpleBubble"/>
+</qualifiedTypeNameHistroy>

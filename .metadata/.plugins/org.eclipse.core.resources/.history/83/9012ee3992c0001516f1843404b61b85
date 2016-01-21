@@ -6,11 +6,11 @@ public class PrimeNumbers
   {
     for (int i = 100; i > 0; i--)
     {
-      int num = (-100 + i);
+      int num = -100 + i;
       int num2 = num - 1;
-      if (num % num2 != 0)
+      if (num % num2 == 0)
       {
-        System.out.println(num * -1);
+        System.out.println(num);
       }
     }
   }

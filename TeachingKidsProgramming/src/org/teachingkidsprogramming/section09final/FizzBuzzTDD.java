@@ -1,14 +1,31 @@
 package org.teachingkidsprogramming.section09final;
 
+import java.util.Scanner;
+
 public class FizzBuzzTDD
 {
-  //    For the numbers being tested, print out either that number, or, 
-  //    If that number is evenly divisible by 3, then print the word 'Fizz', 
-  //    If that number is evenly divisible by 5, then print the word 'Buzz', 
-  //    If that number is evenly divisible by either 3 or 5, then print the word 'FizzBuzz'
-  //
-  //    Write tests using the Assert object via the TDD style
-  //
-  //    For more complete directions see this page
-  //    https://www.penflip.com/lynnlangit/tkp-lesson-plans/blob/master/course09.txt
+  public static void main(String[] args)
+  {
+    //    For the numbers being tested, print out either that number, or,
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter an integer (must be greater than 0): ");
+    int num = sc.nextInt();
+    if (num % 3 == 0)
+    {
+      System.out.println("Fizz");
+    }
+    else if (num % 5 == 0)
+    {
+      System.out.println("Buzz");
+    }
+    else if (num % 3 == 0 && num % 5 == 0)
+    {
+      System.out.println("FizzBuzz");
+    }
+    //
+    //    Write tests using the Assert object via the TDD style
+    //
+    //    For more complete directions see this page
+    //    https://www.penflip.com/lynnlangit/tkp-lesson-plans/blob/master/course09.txt
+  }
 }

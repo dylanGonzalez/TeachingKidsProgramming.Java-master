@@ -2,14 +2,41 @@ package org.teachingkidsprogramming.section09final;
 
 public class FizzBuzz
 {
-  //    For the whole numbers from 1 to 100, print either that number, or, 
-  //    If that number is evenly divisible by 3, then print the word 'Fizz', 
-  //    If that number is evenly divisible by 5, then print the word 'Buzz', 
-  //    If that number is evenly divisible by either 3 or 5, then print the word 'FizzBuzz'
-  //
-  //    NOTE: this is a kata (higher level instructions)
-  //    part of the exercise is to translate into line-by-line English, THEN Java
-  //
-  //    For more complete directions see this page
-  //    https://www.penflip.com/lynnlangit/tkp-lesson-plans/blob/master/course09.txt
+  public static void main(String[] args)
+  {
+    //    NOTE: this is a kata (higher level instructions)
+    //    part of the exercise is to translate into line-by-line English, THEN Java
+    //
+    //    For more complete directions see this page
+    //    https://www.penflip.com/lynnlangit/tkp-lesson-plans/blob/master/course09.txt
+    int num = 1;
+    for (int i = 0; i < 10; i++)
+    {
+      for (int j = 0; j < 10; j++)
+      {
+        if (num % 3 == 0 && num % 5 == 0)
+        {
+          System.out.print("FizzBuzz");
+        }
+        else if (num % 3 == 0)
+        {
+          if (num % 5 == 0)
+          {
+            System.out.print("Buzz");
+          }
+          System.out.print("Fizz");
+        }
+        else
+        {
+          System.out.print(num);
+        }
+        System.out.println();
+        num++;
+      }
+      if (i < 10)
+      {
+        System.out.print("");
+      }
+    }
+  }
 }

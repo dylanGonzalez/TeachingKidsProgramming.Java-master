@@ -1,0 +1,22 @@
+package org.teachingkidsprogramming.CodingChallenge;
+
+public class Print100Integers
+{
+  public static void main(String[] args)
+  {
+    int integer = 0 + 1;
+    for (int i = 0; i < 10; i++)
+    {
+      for (int j = 0; j < 10; j++)
+      {
+        System.out.print(integer);
+        System.out.print(" ");
+        integer++;
+        if (i == 10)
+        {
+          System.out.println(");
+        }
+      }
+    }
+  }
+}

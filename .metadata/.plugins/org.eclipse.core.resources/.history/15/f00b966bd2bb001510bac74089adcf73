@@ -1,0 +1,27 @@
+package org.teachingkidsprogramming.CodingChallenge;
+
+import java.util.Scanner;
+
+public class Print100IntegersOnNRows
+{
+  public static void main(String[] args)
+  {
+    @SuppressWarnings("resource")
+    Scanner keyword = new Scanner(System.in);
+    System.out.print("Enter a number: ");
+    int integer = keyword.nextInt();
+    for (int i = 0; i < 10; i++)
+    {
+      for (int j = 0; j < 10; j++)
+      {
+        System.out.print(integer);
+        System.out.print(" ");
+        integer++;
+      }
+      if (i < 10)
+      {
+        System.out.println("");
+      }
+    }
+  }
+}
